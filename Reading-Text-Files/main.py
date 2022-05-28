@@ -5,8 +5,10 @@
 
 def read_file_content(filename):
     # [assignment] Add your code here 
+    file = open(filename, "r")
+    return file.read()
     
-    return "Hello World"
+   #return "Hello World"
 
 
 def count_words():
@@ -14,3 +16,5 @@ def count_words():
     # [assignment] Add your code here
 
     return {"as": 10, "would": 20}
+
+print(count_words())
